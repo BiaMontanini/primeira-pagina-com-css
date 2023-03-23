@@ -1,50 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Tajawal&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Tajawal&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-        font-size: 100%;
-        background: linear-gradient(68.15deg, #2e0066 16.62%, #040222 85.61%);}
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2e0066 16.62%, #040222 85.61%);
+}
 
-    .cabecalho{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:space-around;
-        padding: 24px;
-    }
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
 
-    .cabecalho-menu{
-        display:flex; 
-        gap: 50px;
-        font: size 100px
+.cabecalho-menu {
+  display: flex;
+  gap: 50px;
+  font: size 100px;
+}
+
+.cabecalho-menu-item {
+  font-family: "Tajawal", sans-serif;
+  color: white;
+  font-weight: 29px;
+  font-size: 30px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+}
+.imagem-conteudo {
+  margin: auto;
+  width: 55%;
+  text-align: center;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.titulo{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 60px;
     
-    }
-
-    .cabecalho-menu-item {
-        font-family: 'Tajawal', sans-serif;
-        color: white;
-        font-weight: 29px;
-        font-size: 30px;
-    }
-
-    .conteudo {
-        margin-bottom: 48px;
-    }
-    .imagem-conteudo{
-        margin: auto;
-        width: 55%;
-        text-align: center;
-
-    }
-    .conteudo-principal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
+}
+.nome{
+    ;
+    color: #FF7A46;
+}
