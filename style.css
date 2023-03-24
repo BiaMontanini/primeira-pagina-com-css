@@ -19,6 +19,14 @@ body {
   justify-content: space-around;
   padding: 24px;
 }
+.conteudo-adicional{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around
+  color: white; 
+  
+}
 
 .cabecalho-menu {
   display: flex;
@@ -35,6 +43,7 @@ body {
 
 .conteudo {
   margin-bottom: 48px;
+  font-family: 'Poppins'
 }
 .imagem-conteudo {
   margin: auto;
@@ -42,7 +51,8 @@ body {
   text-align: center;
 }
 .conteudo-principal {
-  display: flex;
+    color:white;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -53,7 +63,18 @@ body {
     font-size: 60px;
     
 }
-.nome{
-    ;
+.nome, .html, .css{
     color: #FF7A46;
 }
+.subtitulo{ 
+    letter-spacing: 0.22em;
+}
+
+.paragrafo {
+    margin-top: 20px;
+}
+
+.rodape-logo {
+    margin: auto;
+    text-align: center;
+    }
