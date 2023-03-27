@@ -23,8 +23,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around
+  justify-content: center;
+  gap: 40px;
   color: white; 
+  margin-top: 20px;
   
 }
 
@@ -78,3 +80,5 @@ body {
     margin: auto;
     text-align: center;
     }
+
+.conteudo-adicional
