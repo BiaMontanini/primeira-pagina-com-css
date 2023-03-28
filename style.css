@@ -24,16 +24,34 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  color: white; 
+  gap: 40px; 
   margin-top: 20px;
+  font-family: 'poppins';
+  font-weight: 400;
   
 }
-
+.botao-1{
+  background-color: #495482;
+  color: white;
+  width: 129px;
+  height: 41px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(251, 249, 249, 0.25);
+  border-radius: 10px;
+}
+.botao-2{
+  width: 129px;
+  height: 41px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(251, 249, 249, 0.25);
+  border-radius: 10px;
+  
+}
 .cabecalho-menu {
   display: flex;
   gap: 50px;
   font: size 100px;
+
 }
 
 .cabecalho-menu-item {
@@ -80,5 +98,3 @@ body {
     margin: auto;
     text-align: center;
     }
-
-.conteudo-adicional
