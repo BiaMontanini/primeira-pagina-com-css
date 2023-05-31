@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Tajawal&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2e0066 16.62%, #040222 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+    font: size 100px;
+  
+  }
+.cabecalho-menu-item {
+  font-family: "Tajawal", sans-serif;
+  color: white;
+  font-weight: 29px;
+  font-size: 30px;
+}
+
+.titulo{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 60px;
+    margin-left: 20px;
+    
+}
+.conteudo-principal {
+    margin-left: 20px;
+    color:white;
+    display: flex;
+  flex-direction: row;
+  align-items:top;
+  justify-content: space-around;
+  text-align: justify center;
+}
+
+p{
+    margin-top: 30px;
+    
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: justify;
+}
+

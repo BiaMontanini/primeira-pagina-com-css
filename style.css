@@ -33,18 +33,26 @@ body {
 .botao-1{
   background-color: #495482;
   color: white;
-  width: 129px;
-  height: 41px;
+  width: 150px;
+  height: 50px;
   border: none;
   box-shadow: 4px 5px 4px rgba(251, 249, 249, 0.25);
   border-radius: 10px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .botao-2{
-  width: 129px;
-  height: 41px;
+  background-color: white;
+  color: #495482;
+  width: 150px;
+  height: 50px;
   border: none;
   box-shadow: 4px 5px 4px rgba(251, 249, 249, 0.25);
   border-radius: 10px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
   
 }
 .cabecalho-menu {
